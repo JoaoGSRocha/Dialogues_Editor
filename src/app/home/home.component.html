@@ -1,0 +1,119 @@
+<body>
+
+<div fxLayout="row " fxLayout="column-reverse"  fxLayoutGap="10px" fxLayoutAlign="space-around center" >
+  <div fxLayout="row " fxLayout="row-reverse"  fxLayoutGap="10px" fxLayoutAlign="space-around center" >
+    <div fxFlex="131px"></div>
+  </div>
+  <div fxLayout="row " fxLayout="row-reverse"  fxLayoutGap="10px" fxLayoutAlign="space-around center" >
+    <div fxFlex="131px"></div>
+    <mat-card >
+      <div class="mat-card-title" fxFlex="231px"> Test 1a</div>
+    </mat-card>
+    <mat-card >
+      <div class="mat-card-title" fxFlex="231px"> Test 1b</div>
+    </mat-card>
+    <div fxFlex="131px"></div>
+  </div>
+  <div fxLayout="row " fxLayout="row-reverse"  fxLayoutGap="10px" fxLayoutAlign="space-around center" >
+    <div fxFlex="131px">
+    </div>
+    <mat-card >
+      <div class="mat-card-title" fxFlex="531px"> Test 1</div>
+    </mat-card>
+    <div fxFlex="131px"></div>
+  </div>
+  <div fxLayout="row " fxLayout="row-reverse"  fxLayoutGap="10px" fxLayoutAlign="space-around center" >
+    <div fxFlex="131px">
+    </div>
+    <mat-card >
+      <div class="mat-card-title" fxFlex="100px"> Test 2a</div>
+    </mat-card>
+    <mat-card >
+      <div class="mat-card-title" fxFlex="100px"> Test 2b</div>
+    </mat-card>
+    <mat-card >
+      <div class="mat-card-title" fxFlex="100px"> Test 2c</div>
+    </mat-card>
+    <div fxFlex="131px"></div>
+  </div>
+  <div fxLayout="row " fxLayout="row-reverse"  fxLayoutGap="10px" fxLayoutAlign="space-around center" >
+    <div fxFlex="131px">
+    </div>
+    <mat-card >
+      <div class="mat-card-title" fxFlex="531px"> Test 2</div>
+    </mat-card>
+    <div fxFlex="131px"></div>
+  </div>
+  <div fxLayout="row " fxLayout="row-reverse"  fxLayoutGap="10px" fxLayoutAlign="space-around center" >
+    <div fxFlex="131px">
+    </div>
+    <mat-card >
+      <div class="mat-card-title" fxFlex="70px"> 3a</div>
+    </mat-card>
+    <mat-card >
+      <div class="mat-card-title" fxFlex="70px"> 3b</div>
+    </mat-card>
+    <mat-card >
+      <div class="mat-card-title" fxFlex="70px"> 3c</div>
+    </mat-card>
+    <mat-card >
+      <div class="mat-card-title" fxFlex="70px"> 3d</div>
+    </mat-card>
+    <div fxFlex="131px"></div>
+  </div>
+  <div fxLayout="row " fxLayout="row-reverse"  fxLayoutGap="10px" fxLayoutAlign="space-around center" >
+    <div fxFlex="131px">
+    </div>
+    <mat-card >
+      <div class="mat-card-title" fxFlex="531px"> Test 3</div>
+    </mat-card>
+    <div fxFlex="131px"></div>
+  </div>
+  <div fxLayout="row " fxLayout="row-reverse"  fxLayoutGap="10px" fxLayoutAlign="space-around center" >
+    <div fxFlex="131px">
+    </div>
+    <mat-card >
+      <div class="mat-card-title" fxFlex="100px"> Test 4a</div>
+    </mat-card>
+    <mat-card >
+      <div class="mat-card-title" fxFlex="100px"> Test 4b</div>
+    </mat-card>
+    <div fxFlex="131px"></div>
+  </div>
+  <div fxLayout="row " fxLayout="row-reverse"  fxLayoutGap="10px" fxLayoutAlign="space-around center" >
+    <div fxFlex="131px">
+    </div>
+      <mat-card >
+        <div class="mat-card-title" fxFlex="100px"> Test 4c</div>
+      </mat-card>
+      <mat-card >
+        <div class="mat-card-title" fxFlex="100px"> Test 4d</div>
+      </mat-card>
+    <div fxFlex="131px"></div>
+  </div>
+  <div fxLayout="row " fxLayout="row-reverse"  fxLayoutGap="10px" fxLayoutAlign="space-around center" >
+    <div fxFlex="131px">
+    </div>
+    <mat-card >
+      <div class="mat-card-title" fxFlex="531px"> Test 4</div>
+    </mat-card>
+    <div fxFlex="131px"></div>
+  </div>
+</div>
+<input type="file" name="inputField" (change)="handleFileInput($event.target.files)" />
+<div *ngFor="let item of fileToUpload | keyvalue">
+  {{item.key}}:{{item.value}}
+</div>
+<div [innerHTML]="divMessages"></div>
+
+<mat-grid-list cols="4" rowHeight="8:1" [gutterSize]="'10px'">
+
+  <mat-grid-tile
+    *ngFor="let tile of tiles"
+    [colspan]="tile.cols"
+    [rowspan]="tile.rows"
+    [style.background]="tile.color">
+    {{tile.text}}
+  </mat-grid-tile>
+</mat-grid-list>
+</body>

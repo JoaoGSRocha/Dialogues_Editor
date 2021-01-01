@@ -1,0 +1,474 @@
+<Document>
+   <Chapter number="1" background="mercado">
+      <Dialogue number="1">
+         <character></character>
+         <text>You arrive at the village. There is a lot of movement as soon as you get close to the city gates. You see various people in black.</text>
+      </Dialogue>
+         <Dialogue number="2">
+         <character></character>
+         <text>Various people in black appear to be looking at you. They call for you. It's the Benders. The Metal Bender faction. The ones who hired you.</text>
+      </Dialogue>
+      <Dialogue number="3">
+         <character></character>
+         <text>There is two men and a single woman. All seemed unphased by the somewhat ettic movement around them and the constant patrol of guards.</text>
+      </Dialogue>
+      <Dialogue number="4">
+         <character></character>
+         <text>They explain to you they had hired mercenaries and had their own milita on patrol to ensure that merchants like yourself reach the borders safely. They present themselves. One of them was particulary welcoming. Hugo</text>
+      </Dialogue>
+      <Dialogue number="5">
+         <character>Vanessa</character>
+         <text>So, you came to deliver the gold?</text>
+      </Dialogue>
+      <Dialogue number="6">
+         <character>You</character>
+         <text>Yes, here in name of the West kingdom.</text>
+      </Dialogue>
+      <Dialogue number="7">
+         <character>Vanessa</character>
+         <text>Hum Hum. Right, ok, so you follow Hugo here. As you can see he is one of us.</text>
+      </Dialogue>
+      <Dialogue number="8">
+         <character></character>
+         <text>He guides you through the city and gives you a tour of it. He mentions all local taverns in the way, as you might be hungry after such a long journey. Other stores as well that you might want to know of for whatever needs of yours</text>
+      </Dialogue>
+      <Dialogue number="9">
+         <character>Hugo</character>
+         <text>Ah, you a West trader! Man that life must be hard.</text>
+      </Dialogue>
+      <Dialogue number="10">
+         <character>You</character>
+         <text>Yes, quite a few bandits trying to take the best of us here and there.</text>
+      </Dialogue>
+      <Dialogue number="11">
+         <character>Hugo</character>
+         <text> Right. I myself was once in the army. I had to patrol fellas like yourself, not an easy life. Don’t know how you manage to do it by yourself?</text>
+      </Dialogue>
+      <Dialogue number="12">
+         <character>You</character>
+         <text>Well the Kingdom are closing their hands tighter. The few coins that slip out have to be enough. So soldiers like me have to start leaving a bit of our comfort zone and now you know I deliver goods like the ones your group has asked for.</text>
+      </Dialogue>
+      <Dialogue number="13">
+         <character>Hugo</character>
+         <text>Yes Yes.</text>
+      </Dialogue>
+      <Dialogue number="14">
+         <character>You</character>
+         <text>If you don’t mind me asking, why is such a tiny village in need of so much gold?</text>
+      </Dialogue>
+      <Dialogue number="15">
+         <character>Hugo</character>
+         <text>Well it is not a secret I can answer that much. But don't be asking that to my fellow members or they would have me and you in serious trouble, they are not so into sharing details like that, but to be fair it's just them being uptight, it's not such a big deal.</text>
+      </Dialogue>
+      <Dialogue number="16">
+         <character>Hugo</character>
+         <text>Like I was saying is no secret we make a lot of trades, the gold is simply because we end up having to provide spare currency for so much trade, we have a big bazaar running here as you know and it only keeps on growing.</text>
+      </Dialogue>
+      <Dialogue number="17">
+         <character></character>
+         <text>As you are passing you see 3 things that catch your interest</text>
+         <options>
+            <option>
+               <option_text>Soldier moving on the left</option_text>
+               <redirect chapter="1" dialogue="18"></redirect>
+            </option>
+            <option>
+               <option_text>More members all wearing black but in different clothes</option_text>
+               <redirect chapter="1" dialogue="18"></redirect>
+            </option>
+            <option>
+               <option_text>Local Merchants with Metal benders next to them.</option_text>
+               <redirect chapter="1" dialogue="18"></redirect>
+            </option>
+         </options>
+      </Dialogue>
+      <Dialogue number="18">
+         <character>You</character>
+         <text>Listen, why are there so many soldiers moving around the city? Is there something going on?</text>
+      </Dialogue>
+      <Dialogue number="19">
+         <note choice="A" path="1"></note>
+         <character>Hugo</character>
+         <text>Well you are not the only trader he asked to send huge quantities of gold. The city is reinforcing their defenses. We do not want to have a sudden robbery in such an opportunistic time.
+         </text>
+      </Dialogue>
+      <Dialogue number="20">
+         <note choice="A" path="2"></note>  
+         <character>You</character>
+         <text>
+            So you are only asking for gold right now, why did you not ask for traders to come at different times.
+         </text>
+      </Dialogue>
+      <Dialogue number="21">
+         <note choice="A" path="3"></note>
+         <character>Hugo</character>
+         <text>Yea I will have to draw the line there, that is confidential information. (He smiles at you)</text>
+      </Dialogue>
+      <Dialogue number="22">
+         <note choice="A" path="4"></note>
+         <character>You</character>
+         <text>For how long will these soldiers be here</text>
+      </Dialogue>
+      <Dialogue number="23">
+         <note choice="A" path="5"></note>
+         <character>Hugo</character>
+         <text>Till the last of you arrive. So no worries, now that you have reached the city you have nothing to worry about.</text>
+      </Dialogue>
+      <Dialogue number="24">
+         <note choice="A" path="6"></note>
+         <character>You</character>
+         <text>So is it usual for there to be robberies here?</text>
+      </Dialogue>
+      <Dialogue number="25">
+         <note choice="A" path="7"></note>
+         <character>Hugo</character>
+         <text>Attempts? Yes definitely. Successful robbers, very very rare. One or two got lucky, but they made history. So yeap unlikely.</text>
+      </Dialogue>
+      <Dialogue number="26">
+         <character></character>
+         <text>You reach the central and Hugo registers your deliver. They sign and give you the paper stamped as you requested. Your superiors in the West Kingdom will ask for it.</text>
+      </Dialogue>
+      <Dialogue number="27">
+         <character>Hugo</character>
+         <text>So where will you stay? Are you travelling right away?</text>
+      </Dialogue>
+      <Dialogue number="28">
+         <character>You</character>
+         <text>Are the soldiers still in the city?</text>
+      </Dialogue>
+      <Dialogue number="29">
+         <character>Hugo</character>
+         <text>Yes, according to what they told me they will be here all night.</text>
+      </Dialogue>            
+      <Dialogue number="30">
+         <text>Ok then, then I am staying.</text>
+         <character>You</character>
+      </Dialogue>
+      <Dialogue number="31">
+         <character>Hugo</character>
+         <text>Well then I have just the place for you. There is a tavern not too far from here with cheap mead and tons of bread to fill your belly, what do you make of it?</text>
+      </Dialogue>
+      <Dialogue number="32">
+         <character>You</character>
+         <text>Where there is mead so shall be both me and my steed</text>
+      </Dialogue>
+      <Dialogue number="33">
+         <character>Hugo</character>
+         <text>Alrighty then.</text>
+      </Dialogue>
+      <Dialogue number="34" background="taverna">
+         <text>The city is paved by rocks, and you see how clean it is. Everything feels so organized and you have yet to see anyone sick. The whole movement of people is very unusual for  a village of townsfolk. Yet here they act as if they were in the city. Though in numbers they are plenty. Even so, you know that it is chaos that usually follows masses, not order.</text>
+      </Dialogue>
+      <Dialogue number="35" background="taverna">
+         <text>In the tavern you sit and you take a mug, a pint of beer for you to take and a big dish of cheese and bread is in front of you while you wait for your main dish.</text>
+      </Dialogue>
+      <Dialogue number="36" background="taverna">
+         <character></character>
+         <text>You can hear various conversations surrounding, and some get you more interested than others.</text>
+         <options>
+            <option>
+               <option_text>A group of people in purple robes</option_text>
+               <redirect chapter="1" dialogue="37"></redirect>
+            </option>
+            <option>
+               <option_text>Sketchy group of hooded fellas toothpicking with daggers</option_text>
+               <redirect chapter="1" dialogue="44"></redirect>
+            </option>
+            <option>
+               <option_text>Rowdy peasants being obnoxious</option_text>
+               <redirect chapter="1" dialogue="50"></redirect>
+            </option>
+         </options>
+      </Dialogue>
+      <Dialogue number="37" background="taverna">
+         <note choice="C" path="1.1"></note>
+         <character>Obnoxious Male Peasant 1</character>
+         <text>Arghh! Yah better not have me taking my trousers.</text>
+      </Dialogue>
+      <Dialogue number="38" background="taverna">
+         <note choice="C" path="1.2"></note>
+         <character>Obnoxious Female Peasant</character>
+         <text>Oh yah cursed sight of a man, me no cares for yahr petty flimsy parts.</text>
+      </Dialogue>
+      <Dialogue number="39" background="taverna">
+         <note choice="C" path="1.3"></note>
+         <character>Obnoxious Female Peasant</character>
+         <text>If yah Want, yah just pay maih gold. Yes. Then we good for. But if yah ain’t carrying it, yah better shake that ass.</text>
+      </Dialogue>
+      <Dialogue number="40" background="taverna">
+         <note choice="C" path="1.4"></note>
+         <character>Obnoxious Female Peasant </character>
+         <text>This round has my name on it.</text>
+      </Dialogue>
+      <Dialogue number="41" background="taverna">
+         <note choice="C" path="1.5"></note>
+         <character>Obnoxious Male Peasant 2</character>
+         <text>Go Umar, you have some ladies to please on the next table. Do not hold back on their sightseeing and yah know your so well earned coin haha.</text>
+      </Dialogue>
+      <Dialogue number="43" background="taverna">
+         <note choice="C" path="1.6"></note>#
+         <text>You can see now that there are some ladies with coins ready to throw at the table where the obnoxious gang is. This man who seems to be half naked is clearly very handsome and for what it looks like his chips seem to be quite short when compared to of the girl he owes to. She seemed to had figured a way for him to pay his dues.</text>
+      </Dialogue>
+      <Dialogue number="44" background="taverna">
+         <note choice="C" path="1.6"></note>#
+         <text>Hmmm...what else is happening in this tavern</text>
+         <redirect chapter="1" dialogue="36"></redirect>
+      </Dialogue>
+      <Dialogue number="45" background="taverna">
+         <note choice="B" path="1.1"></note>
+         <character>Dodgy Dagger ToothPicking Fella 1</character>
+         <text>Mate….these Avarum guys…..man...they know how to bake their bread….this is priceless..</text>
+      </Dialogue>
+      <Dialogue number="46" background="taverna">
+         <note choice="B" path="1.2"></note>
+         <character>Dodgy Dagger ToothPicking Fella 2</character>
+         <text>We could have gone to the next village.</text>
+      </Dialogue>
+      <Dialogue number="47" background="taverna">
+         <note choice="B" path="1.3"></note>
+         <character>Dodgy Dagger ToothPicking Fella 1</character>
+         <text>Man can you say that after eating this bread? Can you?</text>
+      </Dialogue>
+      <Dialogue number="48" background="taverna">
+         <note choice="B" path="1.4"></note>
+         <character>Dodgy Dagger ToothPicking Fella 2</character>
+         <text>Fine.</text>
+      </Dialogue>
+      <Dialogue number="49" background="taverna">
+         <note choice="B" path="1.5"></note>
+         <character>Dodgy Dagger ToothPicking Fella 1</character>
+         <text>No, Say it!</text>
+      </Dialogue>
+      <Dialogue number="50" background="taverna">
+         <note choice="B" path="THIEF 1.6"></note>
+         <character>Dodgy Dagger ToothPicking Fella 2</character>
+         <text>...Fine, yes, it is darn good. Alright, alright, next time just let me know we are going to make such a detour.</text>
+         <redirect chapter="1" dialogue="44"></redirect>
+      </Dialogue>
+      <Dialogue number="51" background="taverna"> 
+         <note choice="A" path="AMBASS 1.1"></note>
+         <character>Hooded Fella 1</character>
+         <text>So has the money arrived?</text>
+      </Dialogue>
+      <Dialogue number="52" background="taverna">
+         <note choice="A" path="AMBASS 1.2"></note>
+         <character>Hooded Fella 2</character>
+         <text>No not yet. It should not take too long.</text>
+      </Dialogue>
+      <Dialogue number="53" background="taverna">
+         <note choice="A" path="AMBASS 1.3"></note>
+         <character>Hooded Fella 1</character>
+         <text>They do not seem to be bothered by the movement.</text>
+      </Dialogue>
+      <Dialogue number="54" background="taverna">
+         <note choice="A" path="AMBASS 1.4"></note>
+         <character>Hooded Fella 2</character>
+         <text>They are quite used to it, yes.</text>
+      </Dialogue>
+      <Dialogue number="55" background="taverna">
+         <note choice="A" path="AMBASS 1.5"></note>
+         <character>Hooded Fella 1</character>
+         <text>Indeed. Tell me is the food any good in Rose Street?</text>
+      </Dialogue>
+      <Dialogue number="56" background="taverna">
+         <note choice="A" path="AMBASS 1.6"></note>
+         <character>Hooded Fella 2</character>
+         <text>No. But they have great fish. They sell only the highest quality.</text>
+      </Dialogue>
+      <Dialogue number="57" background="taverna">
+         <note choice="A" path="AMBASS 1.7"></note>
+         <character>Hooded Fella 1</character>
+         <text>You recognize a medal one of them carries on their chest. You know it for being from a county in some distant islands.</text>
+      </Dialogue>
+      <Dialogue number="58" background="taverna">
+         <note choice="A" path="AMBASS 1.8"></note>
+         <character>Hooded Fella 2</character>
+         <text>You also recognize something else. These two men are quite sloppy. They both carry a ring. A messenger ring. You recognize them very well and you know that such rings would not be handed out to just anyone. Something fishy is happening here..
+         </text>
+      </Dialogue>
+      <Dialogue number="59" background="taverna">
+         <note choice="A" path="AMBASS 1.9"></note>
+         <character>Hooded Fella 1</character>
+         <text>We should go. They are at the warehouse right now. Let us go and make the request.</text>
+      </Dialogue>
+      <Dialogue number="60" background="taverna">
+         <note choice="A" path="AMBASS 1.10"></note>
+         <character>Hooded Fella 2</character>
+         <text>Rose Street?</text>
+      </Dialogue>
+      <Dialogue number="61" background="taverna">
+         <note choice="A" path="AMBASS 1.11"></note>
+         <character>Hooded Fella 1</character>
+         <text>Yes, the same as last year.</text>
+      </Dialogue>
+      <Dialogue number="62" background="mercado_night">
+         <text>You are moving to your bedroom when you remember the place the purple robes mentioned.</text>
+         <options>
+            <option>
+               <option_text>You decide to go take it a look.</option_text>
+               <redirect chapter="1" dialogue="64" background="mercado_night"></redirect>
+            </option>
+            <option>
+               <option_text>Go to your room</option_text>
+               <redirect chapter="1" dialogue="63" background="mercado_night"></redirect>
+            </option>
+         </options>
+      </Dialogue>
+      <Dialogue number="63" background="mercado_night">
+         <text>You do not seem to be able to fall asleep. The curiosity is driving you insane</text>
+         <redirect chapter="2" dialogue="63"></redirect>
+      </Dialogue>
+      <Dialogue number="64" background="mercado_night">
+         <text>You reach close to the said place. As you get closer, you see a lot of soldiers. The roads are all blocked by the guards and their roadblocks.</text>
+      </Dialogue>
+      <Dialogue number="65" background="mercado_night">
+         <character>Soldier Guarding Road</character>
+         <text>Sir please return to where you came from, from here onward is restricted.</text>
+      </Dialogue>
+      <Dialogue number="66" background="mercado_night">
+         <character>You</character>
+         <text>Ok.. (You find it odd and you leave without knowing any further what was happening there) </text>
+         <redirect chapter="2" dialogue="1"></redirect>
+      </Dialogue>
+   </Chapter>
+   <Chapter number="2" background="mercardo">
+      <Dialogue number="1">
+         <character></character>
+         <text>You are arriving once again in the village and you wonder if you should mention what you heard about 3 months ago…</text>
+         <options>
+            <option>
+               <option_text>Well no harm now, so why not?</option_text>
+               <redirect chapter="2" dialogue="2"></redirect>
+            </option>
+            <option>
+               <option_text>Leave it be...better safe than sorry</option_text>
+               <redirect chapter="2" dialogue="4"></redirect>
+            </option>
+         </options>
+      </Dialogue>
+      <Dialogue number="2">
+         <character>You</character>
+         <text>Hey Hugo, so do you remember last time I was here, well I overheard something, might be nothing…(You tell him everything in detail...)</text>
+      </Dialogue>
+      <Dialogue number="3">
+         <character>Hugo</character>
+         <text>I see, so you got curious. Alright. Thank you for letting me know.</text>
+      </Dialogue>
+      <Dialogue number="4">
+         <character>You</character>
+         <text>You both chat until you once again reach the tavern.</text>
+      </Dialogue>
+      <Dialogue number="5" background="taverna">
+         <character></character>
+         <text>You can hear various conversations surrounding, same groups in different tables, you wonder what they are up to now.</text>
+         <options>
+            <option>
+               <option_text>In robes fellas, now in purple</option_text>
+               <redirect chapter="2" dialogue="8"></redirect>
+            </option>
+            <option>
+               <option_text>The sketchy bread lover fellas</option_text>
+               <redirect chapter="2" dialogue="7"></redirect>
+            </option>
+            <option>
+               <option_text>The strip money making gang</option_text>
+               <redirect chapter="2" dialogue="6"></redirect>
+            </option>
+         </options>
+      </Dialogue>
+      <Dialogue number="6" background="taverna">
+         <note choice="C" path="1"></note>
+         <text>The other dude now seems to be in the same situation...this girl clearly know how her game, remind me of never playing any sort of games with her.</text>
+         <redirect chapter="2" dialogue="5"></redirect>
+      </Dialogue>
+      <Dialogue number="7" background="taverna">
+         <note choice="B" path="1.1"></note>
+         <character>You</character>
+         <text>As dodgy as before still loving their bread...seem a bit drunk too...hope none of them get stabbed...</text>
+         <redirect chapter="2" dialogue="5"></redirect>
+      </Dialogue>
+      <Dialogue number="8" background="taverna">
+         <note choice="A" path="AMBASS 1.1"></note>
+         <text> The feelas now in robe have another cryptic conversation. In it you manage to hear the name of a 2nd locations. This one is close to the port</text>
+      </Dialogue>
+      <Dialogue number="9" background="taverna">
+         <character></character>
+         <text>You wait just enough time for them to go and while facing Hugo, you wonder...</text>
+         <options>
+            <option>
+               <option_text>Should I let him know what I heard</option_text>
+               <redirect chapter="2" dialogue="10"></redirect>
+            </option>
+            <option>
+               <option_text>Excuse myself for the night and go after the place</option_text>
+               <redirect chapter="2" dialogue="17"></redirect>
+            </option>
+         </options>
+      </Dialogue>
+      <Dialogue number="10" background="taverna">
+         <character>You</character>
+         <text>Listen it happened again. In the tavern other robe people were talking about this odd place.</text>
+      </Dialogue>
+      <Dialogue number="12" background="taverna">
+         <character>You</character>
+         <text>No.</text>
+         <redirect chapter="2" dialogue="14"></redirect>
+      </Dialogue>
+
+      <Dialogue number="14" background="taverna">
+         <character>Hugo</character>
+         <text>Alright. Well you did good, either way you are a trader, no need for you to investigate things like that.</text>
+         <redirect chapter="2" dialogue="16"></redirect>
+      </Dialogue>
+      <Dialogue number="16" background="taverna">
+         <text>You nod but you know your curiosity is killing so you ignore his voice say you will go home and go anyway.</text>
+      </Dialogue>
+      <Dialogue number="17" background="mercado_night">
+         <text>You find the Metal Benders holding the Robe fellas hostage, gagged nonethless.</text>
+      </Dialogue>
+      <Dialogue number="18" background="mercado_night">
+         <text>You feel a presence behind you. ANd when you turn you see a familiar face...It is Vanessa.</text>
+      </Dialogue>
+      <Dialogue number="19" background="mercado_night">
+         <text>It turns out they knew all along about these cunning merchants trying to sabbotage the Metals economy.
+            They had left for them a honeypot, a trap to what they felt they were indeed suceeding. In fact all they
+            were doing was making a small deviation of the routes to only go back to its originally intended route.</text>
+         <redirect chapter="2" dialogue="10"></redirect>
+      </Dialogue>
+      <Dialogue number="20" background="mercado_night">
+         <text>You find the Metal Benders holding the Robe fellas hostage, gagged nonethless.</text>
+      </Dialogue>
+      <Dialogue number="21" background="mercado_night">
+         <text>You feel a presence behind you. ANd when you turn you see a familiar face...It is Vanessa.</text>
+      </Dialogue>
+      <Dialogue number="22" background="mercado_night">
+         <text>It turns out they knew all along about these cunning merchants trying to sabbotage the Metals economy.
+            They had left for them a honeypot, a trap to what they felt they were indeed suceeding. In fact all they
+            were doing was making a small deviation of the routes to only go back to its originally intended route.</text>
+         <redirect chapter="2" dialogue="10"></redirect>
+      </Dialogue>
+      <Dialogue number="23" background="mercado_night">
+         <character>You</character>
+         <text>Listen it happened again. In the tavern other robe people were talking about this odd place.</text>
+      </Dialogue>
+      <Dialogue number="24" background="mercado_night">
+         <character>Hugo</character>
+         <text>Did you go?</text>
+      </Dialogue>
+            <Dialogue number="25">
+         <character>You</character>
+         <text>Yes.</text>
+      </Dialogue>
+      <Dialogue number="26" background="mercado_night">
+         <character>Hugo</character>
+         <text>Oh you pesky trader...well I guess they told you to come visit me....well at least you have some observation skills I give you that.
+            We talk in the morning</text>
+      </Dialogue>
+      <Dialogue number="27" background="mercado">
+         <text>Upon waking up and opening the door to leave the city you are greeted by several Benders. They offer you a job working for them. Triple your current earns. They do not specify exactly what you have to do. They only answer: "Being a bender, a metal bender."</text>
+      </Dialogue>
+      <Dialogue number="28" background="mercado">
+         <text>You question why. "A trader who can antecipate our operations is either trouble or a great ally, we tend to choose the former." "Welcome to the club"</text>
+      </Dialogue>
+   </Chapter>
+</Document>
